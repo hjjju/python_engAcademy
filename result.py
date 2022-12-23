@@ -1,34 +1,5 @@
 
 
-
-
-# parsed = parser.from_file(txt_path)
-# print(type(parsed))
-# pp(parsed)
-# f = open(txt_path,'r',encoding='UTF-8')
-
-# while 1:
-#     line = f.readline();
-#     if not line : 
-#      break
-
-#     print(line)
-
-# 한줄씩 출력
-# lines = f.readlines()
-# for i in lines:
-#     print(lines)
-
-# 리스트형식으로 가져옴
-# lines = f.readlines()
-# print(lines)
-
-# 읽어와서 문자열로 반환
-# rd = f.read()
-# print(rd)
-
-# lines = f.readlines()
-
 from tika import parser
 from pprint import pprint as pp
 import re
